@@ -1,5 +1,6 @@
 let nomeHeroi = "Robervaldo"
 let xpHeroi = 2000
+let nivel;
 
 if (xpHeroi <=1000){
     nivel = "Ferro"
