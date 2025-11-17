@@ -1,5 +1,6 @@
 let nomeHeroi = "Robervaldo"
 let xpHeroi = 2000
+let nivel;
 
 if (xpHeroi <=1000){
     nivel = "Ferro"
@@ -15,7 +16,7 @@ if (xpHeroi <=1000){
     nivel = "Ascendente"
 }else if (xpHeroi <=10000){
     nivel = "Imortal"
-}else if (xpHeroi >10001){
+}else {
     nivel = "Radiante"
 }
  
