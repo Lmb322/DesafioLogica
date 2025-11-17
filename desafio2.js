@@ -1,10 +1,19 @@
 let victory = 10
-let defeat = 5 
-let total = ranking ()
+let defeat = 5
+let result;
+ 
 
-function balance (ranking){
-    numberVictory  
+calculeOSaldoDeVitorias()
 
+function calculeOSaldoDeVitorias(){
+    subtracao = victory - defeat
+    return subtracao
 }
 
-console.log(total)
+function ranking(){
+    if (subtracao <= 10){
+        result = "Ferro"
+    }else if (subtracao <= 20){
+        result = "Bronze"
+    }
+}
