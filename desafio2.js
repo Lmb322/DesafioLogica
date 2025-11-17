@@ -1,25 +1,25 @@
-let victory = 100
-let defeat = 60
-let result = calculeOSaldoDeVitorias()
-let ranking;
+let victory = 92
+let defeat = 1
+let result = definition()
 
-function calculeOSaldoDeVitorias(){
-    subtracao = victory - defeat
-    return subtracao
-}
-
-definicao()
-function definicao(){
-    if (result <= 10){
+definition()
+function definition(){
+    let subtraction = victory - defeat
+    if (subtraction <= 10){
         ranking = "Ferro"
-    }else if(result <= 20){
+    }else if(subtraction <= 20){
         ranking = "Bronze"
-    }else if(result <= 30){
+    }else if(subtraction <= 50){
         ranking = "Prata"
-    }else if(result <= 40){
+    }else if(subtraction <= 80){
         ranking = "Ouro"
+    }else if(subtraction <= 90){
+        ranking = "Diamante"
+    }else if(subtraction <= 100){
+        ranking = "Lendário"
+    }else{
+        ranking = "Imortal"
     }
     return ranking
 }
-
 console.log("O ranking do Heroi é: "+ ranking)
